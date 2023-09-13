@@ -1,0 +1,2 @@
+O operador == verifica apenas se o conteudo do que ta sendo comparado é igual
+O operador === verifica tanto o conteúdo quanto os tipo de dados dos elementos que estão sendo comparados

@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  #soma {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  #iniciar {
+    color: grey;
+    padding: 50px;
+  }
+  
+  #resposta {
+    margin-top: 20px;
+  }
+  
