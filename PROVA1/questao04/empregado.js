@@ -1,28 +1,31 @@
-class Empregado {
-    constructor(nome, salario) {
-      this.nome = nome;
-      this.salario = salario;
-    }
-  
-    getSalario() {
-      return this.salario;
-    }
-  
-    setSalario(salario) {
-      if (salario < 0) {
-        console.log("Salário não pode ser negativo.");
-        return;
-      }
-  
-      this.salario = salario;
-    }
-  
+/* Código desenvolvido corretamente */
+/* Nota: 2.0 */
 
-    static somaSalarios(empregados) {
-      const soma = empregados.reduce((a, b) => a + b.getSalario(), 0);
-      return soma;
-    }
+class Empregado {
+  constructor(nome, salario) {
+    this.nome = nome;
+    this.salario = salario;
   }
+
+  getSalario() {
+    return this.salario;
+  }
+
+  setSalario(salario) {
+    if (salario < 0) {
+      console.log("Salário não pode ser negativo.");
+      return;
+    }
+
+    this.salario = salario;
+  }
+
+
+  static somaSalarios(empregados) {
+    const soma = empregados.reduce((a, b) => a + b.getSalario(), 0);
+    return soma;
+  }
+}
 
 const empregado1 = new Empregado("João da Silva", 1000);
 const empregado2 = new Empregado("Maria da Silva", 2000);

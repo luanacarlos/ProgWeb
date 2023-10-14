@@ -1,33 +1,34 @@
+<!-- Apenas o primeiro e terceiro seletores estão corretos -->
+<!-- Nota: 1.3 -->
+
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Instituto de Computação</title>
     <style>
 
-    span {
-        border: 5px solid black;          
-    }
-    <!-- Esse seletor envolve todos os elementos span é chamado de seletor de tipo. -->
+      span {
+          border: 5px solid black;
+      }
+      <!-- Esse seletor envolve todos os elementos span é chamado de seletor de tipo. -->
 
-    .css {
-        border: 5px solid rgb(0, 98, 255);
-    }
-    <!-- Esse seletor envolve tas as classes com titulo "css" é chamado de seletor de classes -->
+      .css {
+          border: 5px solid rgb(0, 98, 255);
+      }
+      <!-- Esse seletor envolve tas as classes com titulo "css" é chamado de seletor de classes -->
 
-    p > span {
-        border: 5px solid rgb(255, 4, 4);
-    } 
-    <!-- Esse seletor envolve todos os span que sao descendentes de um p é chamado de seletor de descendencia direta -->
-
+      p > span {
+          border: 5px solid rgb(255, 4, 4);
+      }
+      <!-- Esse seletor envolve todos os span que sao descendentes de um p é chamado de seletor de descendencia direta -->
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Instituto de Computação</h1>
     <a class="cl1" href="http://icomp.ufam.edu.br">IComp</a>
     <p>Estou aprendendo <span class="cl1" title="css">CSS</span>.</p>
     <p class="cl1">Esta prova está mole!</p>
     <a href="http://w3c.org">Visite o website da W3C</a>
   </body>
-
 </html>
