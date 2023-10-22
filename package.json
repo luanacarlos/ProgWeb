@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node EXPRESS/src/apps.js",
+    "start:prod": "node EXPRESS//apps.js",
+    "dev": "nodemon EXPRESS/src/apps.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^10.0.0" 
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
