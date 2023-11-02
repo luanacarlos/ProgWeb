@@ -1,0 +1,91 @@
+.main-body {
+    margin-top: 92px;
+}
+
+.centered-image {
+    display: block; /* Torna a imagem um bloco para aplicar margens */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 100%; /* Define a largura máxima para que a imagem não ultrapasse o contêiner */
+}
+  
+.expanded-image {
+    width: 20%; /* Aumenta a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+  
+.deserto {
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+  
+.chao {
+    background-image: url(../img/sprite.png);
+    position: absolute;
+    bottom: 0px;
+    background-position-y: -78px;
+    width: 1831px;
+    height: 20px;
+    z-index: 2;
+} 
+  
+.dino {
+    background-image: url(../img/sprite.png);
+    position: absolute;
+    width: 65px;
+    left: 20px;
+    height: 70px;
+    z-index: 3;
+    scale: 1;
+}
+  
+.nuvem {
+    background-image: url(../img/sprite.png);
+    background-position: -125px -2px;
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    z-index: 2;
+}
+  
+  
+.cacto {
+    background-image: url(../img/sprite.png);
+    background-position: -640px -2px;
+    position: absolute;
+    width: 74px;
+    height: 73px;
+    z-index: 3;
+    left: 20;
+}
+  
+.ptero {
+    background-image: url(../img/sprite.png);
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 20;
+    z-index: 2;
+} 
+  
+.cactop {
+    background-image: url(../img/sprite.png);
+    background-position: -333px -1px;
+    position: absolute;
+    width: 29px;
+    height: 55px;
+    left: 20;
+    z-index: 2;
+  
+}
+  
+.cactog {
+    background-image: url(../img/sprite.png);
+    background-position: -489px -1px;
+    position: absolute;
+    width: 39px;
+    height: 75px;
+    left: 20;
+    z-index: 2;
+}
